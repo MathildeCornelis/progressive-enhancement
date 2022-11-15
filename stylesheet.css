@@ -40,4 +40,23 @@ blockquote{
 }
 .villagers{
     border-left: 3px solid #e66909;  
+}  
+.bad{
+    color: red;
+}
+.good{
+    color: green;
+}
+
+.grey{
+    background-color: gray;
+}
+.white{
+    background-color: rgb(255, 255, 255);
+}
+li{
+    padding-bottom: 5%;
+}
+header p{
+    font-weight: 600;
 }
