@@ -60,3 +60,37 @@ li{
 header p{
     font-weight: 600;
 }
+.firstimg{
+    float: right;
+    width: 50%;
+    position: static;
+}
+.secondimg{
+    float: left;
+    width: 50%;
+    position: static;
+    margin-top: 5%;
+}
+.thirdimg{
+    float: right;
+    width: 50%;
+    position: static;
+}
+.figcaptionone{
+    margin-top: 45%;
+}
+.story{
+    margin-top: 3%;
+}
+.firstp{
+    margin-top: 6%;
+}
+.notification{
+    background:#FFFFDD;
+    border:3px solid #252525;
+    width:250px;
+    font-weight:bold;
+    color: #252525;
+    align-self: flex-end;
+    right: 5px;
+  }
