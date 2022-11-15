@@ -3,8 +3,8 @@ main {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(90deg, rgb(144, 123, 84), rgb(255, 234, 210));
-    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+    background-image: linear-gradient(90deg, rgb(144, 123, 84, 0.5), rgb(255, 234, 210, 0.5)),
+                        url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: cover;
@@ -23,7 +23,7 @@ a:hover {
 a:visited {
     color: rgb(4, 122, 122);
 }
-blockquote{
+header blockquote{
     text-align: center;
     font-size: 160%;
     background-color: rgb(210, 210, 210);
@@ -31,4 +31,13 @@ blockquote{
     padding-left: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
+}
+blockquote{
+    font-style: italic;
+}
+.farmer{
+    border-left: 3px solid #085a15;
+}
+.villagers{
+    border-left: 3px solid #e66909;  
 }
